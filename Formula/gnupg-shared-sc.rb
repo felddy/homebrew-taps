@@ -1,4 +1,4 @@
-class GnupgSharedSC < Formula
+class GnupgSharedSc < Formula
   desc "GNU Pretty Good Privacy (PGP) package with scdaemon shared access patch"
   homepage "https://gnupg.org/"
   url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.15.tar.bz2"
