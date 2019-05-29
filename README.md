@@ -1,1 +1,3 @@
-# homebrew-taps
+# homebrew-taps 🍺
+
+`brew tap felddy/taps`
