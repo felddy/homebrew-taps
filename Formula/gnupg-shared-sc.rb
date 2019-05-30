@@ -42,6 +42,17 @@ class GnupgSharedSc < Formula
     quiet_system "killall", "gpg-agent"
   end
 
+  def caveats
+    <<~EOS
+      To activate smartcard shared access, add the following line
+      to your .gnupg/scdaemon.conf:
+
+        shared-access
+
+    EOS
+  end
+
+
   test do
     (testpath/"batch.gpg").write <<~EOS
       Key-Type: RSA
