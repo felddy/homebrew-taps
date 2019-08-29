@@ -1,8 +1,8 @@
 class GnupgSharedSc < Formula
   desc "GNU Pretty Good Privacy (PGP) package with scdaemon shared access patch"
   homepage "https://gnupg.org/"
-  url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.16.tar.bz2"
-  sha256 "6cbe8d454bf5dc204621eed3016d721b66298fa95363395bb8eeceb1d2fd14cb"
+  url "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.17.tar.bz2"
+  sha256 "afa262868e39b651a2db4c071fba90415154243e83a830ca00516f9a807fd514"
 
   depends_on "pkg-config" => :build
   depends_on "sqlite" => :build if MacOS.version == :mavericks
